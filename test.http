@@ -1,0 +1,15 @@
+GET http://127.0.0.1:8080/account/id?id=f9a4ae6c-c9b9-4182-85b0-52416c2cb9db
+
+###
+
+GET http://127.0.0.1:8080/account/email?email=dummy@dummy.local
+
+###
+
+POST http://127.0.0.1:8080/account
+Content-Type: application/json
+
+{
+  "email": "dummy@dummy.local",
+  "name": "Dummy~~"
+}
